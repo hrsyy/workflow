@@ -1,0 +1,116 @@
+:root
+{
+    --background: #F0F1FF;
+    --header: #8A92DA;
+    --shadow: #BCC0E5;
+    --menu-bar: black;
+    --menu-bar-bg: #CCD1FF;
+    --aside-bg: #CCD1FF;
+    --tag-tx: black;
+    --txt: black;
+}
+
+
+body
+{
+    background: var(--background);
+    color: var(--txt);
+}
+
+
+header
+{
+    background: var(--header);
+    box-shadow: 0 1px 10px var(--header-shadow);
+}
+
+.menubar
+{
+    color: var(--menu-bar);
+    border-radius: 25px;
+}
+
+.menubar-button
+{
+    background: var(--header);
+    color: var(--txt);
+    border-radius: 5px;
+}
+
+
+.menubar-button:hover
+{
+    background: var(--menu-bar-bg);
+    color: var(--menu-bar);
+    border-radius: 5px;
+}
+
+
+h2
+{
+    color: var(--tag-tx);
+}
+
+
+article
+{
+    box-shadow: 2px 2px 5px var(--menu-bar);
+}
+
+
+a:link 
+{
+    text-decoration:none; 
+    color:#000000; 
+}
+
+a:visited 
+{
+    text-decoration:none; 
+    color:#000000; 
+}
+
+a:hover 
+{
+    text-decoration:none; 
+    color:   var(--shadow); 
+}
+
+
+/* Style tab links */
+.tablink {
+    background: var(--header);
+    color: var(--txt);
+  }
+
+  .tablink:hover {
+    background-color: var(--menu-bar-bg);
+  }
+  
+  /* Style the tab content (and add height:100% for full page content) */
+  .tabcontent {
+    color: var(--txt);
+  }
+  
+  #allTaskNumbers {background-color: var(--menu-bar-bg);}
+  #onThemes {background-color: var(--menu-bar-bg);}
+  #summerPractice {background-color: var(--menu-bar-bg);}
+
+
+
+
+th, td:first-child {
+    background: var(--header);
+    color: var(--txt);
+}
+
+th, td {
+
+    border-color: var(--menu-bar-bg);
+}
+
+
+th, td:hover
+{
+    color: var(--txt);
+}

@@ -1,0 +1,43 @@
+body
+{
+    /* font-family: SegoeUI, 'Segoe UI', "Open Sans";*/
+    font-family: Fedra Sans;
+    font-size: 19px;
+}
+
+/*
+body{
+     font: 20px/24px Times New Roman;
+}*/
+
+
+h2{
+    font-size: 24px;
+    
+}
+
+a{
+    text-decoration: none;
+}
+
+.logo{
+    text-align: center;
+    text-indent: 1em;
+    
+/*     Зададим высоту линии такой же как и у вмещающего блока, чтобы текст был по вертикальному центру */
+    line-height: 80px;
+    letter-spacing: 0.6em;
+    font-weight: 800;
+    font-size: 30px;
+}
+
+
+.article-meta  *{
+    font-size: 0.8em;
+    /*color: #555;*/
+}
+
+
+.tablink {
+    font-size: 19px;
+  }
